@@ -1,0 +1,17 @@
+-- Create table for PRINT_JOB entity
+CREATE TABLE PRINT_JOB (
+    CUSTOMER_ID         NUMBER,
+    KIOSK_ID            NUMBER,
+    DOCUMENT_ID         NUMBER,
+    TRANSACTION_ID      NUMBER,
+    JOB_DATE            DATE,
+    JOB_TIME            TIMESTAMP,
+    JOB_STATUS          VARCHAR2(50),
+    NUMBER_OF_COPIES    NUMBER,
+    TOTAL_PRICE         NUMBER,
+    PAGES_PER_SHEET     NUMBER,
+    ROTATION_OPTION     VARCHAR2(50),
+    DOUBLE_SIDED_TYPE   VARCHAR2(50),
+    PRINT_COLOR         VARCHAR2(50),
+    PAGE_RANGE          VARCHAR2(255)
+);
