@@ -1,4 +1,4 @@
--- Create table for PRINT_JOB entity
+-- Table creation for PRINT_JOB entity
 CREATE TABLE PRINT_JOB (
     CUSTOMER_ID         NUMBER,
     KIOSK_ID            NUMBER,
