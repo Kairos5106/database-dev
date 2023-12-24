@@ -5,7 +5,7 @@ CREATE TABLE PRINT_JOB (
     DOCUMENT_ID         NUMBER,
     TRANSACTION_ID      NUMBER,
     JOB_DATE            DATE,
-    JOB_TIME            TIMESTAMP,
+    JOB_TIME            VARCHAR(50),
     JOB_STATUS          VARCHAR2(50),
     NUMBER_OF_COPIES    NUMBER,
     TOTAL_PRICE         NUMBER,
