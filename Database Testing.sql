@@ -12,3 +12,8 @@ INSERT INTO ADMINISTRATOR(
 -- adding basic level which is not allowed 
 
 -- POOI HUA
+SELECT *
+FROM PRINT_JOB PJ
+JOIN KIOSK_USAGE KU ON PJ.CUSTOMER_ID = KU.CUSTOMER_ID
+                    AND PJ.KIOSK_ID = KU.KIOSK_ID
+                    AND PJ.TRANSACTION_ID = KU.TRANSACTION_ID;

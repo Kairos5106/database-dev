@@ -70,3 +70,14 @@ CREATE TABLE REPORT_SYSTEM (
     TOTAL_SALES NUMBER,
     TOTAL_PAPER_USE NUMBER
 );
+
+-- Table creation for KIOSK_USAGE entity
+CREATE TABLE KIOSK_USAGE (
+    CUSTOMER_ID                 NUMBER,
+    KIOSK_ID                    NUMBER,
+    TRANSACTION_ID              NUMBER,
+    ACCESS_DATE                 DATE,
+    ACCESS_TIME                 VARCHAR(50),
+    LOGOUT_TIME                 VARCHAR(50),
+    KIOSK_USAGE_DURATION        VARCHAR(50)
+);
